@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">AreaTalk</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">注销</string>
+
+    <string name="menu_home">首页</string>
+    <string name="menu_hotel">酒店</string>
+    <string name="menu_taxi">导航</string>
+    <string name="menu_route">我的位置</string>
+    <string name="menu_order">我的频道</string>
+    <string name="menu_set">注销</string>
+
+    <string name="btn_seek_bar">拖动条</string>
+    <string name="seekBar_text">当前半径：20000米</string>
+</resources>

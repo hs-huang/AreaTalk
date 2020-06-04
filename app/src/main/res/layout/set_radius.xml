@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--在地图上添加的用户信息窗口-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutSetRadius"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/radius"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/ly_option"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <SeekBar
+            android:id="@+id/seekBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:outlineSpotShadowColor="#0AA595"
+            android:progress="20000"
+            android:padding="10dp"/>
+
+        <TextView
+            android:id="@+id/zhanwei"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/seekBar_text"
+            android:padding="20dp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+        <TextView
+            android:id="@+id/seekBar_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="20dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

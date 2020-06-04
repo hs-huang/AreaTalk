@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.scnu.easygo.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_hotel"
+        android:name="com.scnu.easygo.ui.hotel.HotelFragment"
+        android:label="@string/menu_hotel"
+        tools:layout="@layout/fragment_hotel" />
+
+    <fragment
+        android:id="@+id/nav_taxi"
+        android:name="com.scnu.easygo.ui.taxi.TaxiFragment"
+        android:label="@string/menu_taxi"
+        tools:layout="@layout/fragment_taxi" />
+
+    <fragment
+        android:id="@+id/nav_route"
+        android:name="com.scnu.easygo.ui.route.RouterFragment"
+        android:label="@string/menu_route"
+        tools:layout="@layout/fragment_route" />
+
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="com.scnu.easygo.ui.order.OrderFragment"
+        android:label="@string/menu_order"
+        tools:layout="@layout/fragment_order" />
+
+    <fragment
+        android:id="@+id/nav_set"
+        android:name="com.scnu.easygo.ui.set.SetFragment"
+        android:label="@string/menu_set"
+        tools:layout="@layout/fragment_set" />
+</navigation>

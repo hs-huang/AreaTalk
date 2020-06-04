@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".barrage_channel.addgroup"
+    android:orientation="vertical"
+    android:stretchColumns="1"
+    android:background="#97CAE7">
+
+    <TableRow
+        android:id="@+id/tableRow1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/GroupName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="用户名：" />
+
+        <TextView
+            android:id="@+id/editText1"
+            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:textSize="20dp"
+            android:background="@drawable/edit_background2"
+             />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/GroupName2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="用户id：" />
+
+        <TextView
+            android:id="@+id/editText2"
+            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:textSize="20dp"
+            android:background="@drawable/edit_background2"
+            />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/GroupName3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:text="邮箱：" />
+
+        <TextView
+            android:id="@+id/editText3"
+            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:textSize="20dp"
+            android:background="@drawable/edit_background2"
+             />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/tableRow4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <TextView
+            android:id="@+id/GroupContent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:gravity="top|left"
+            android:text="已有频道：" />
+
+        <TextView
+            android:id="@+id/editText5"
+            android:layout_height="wrap_content"
+            android:layout_width="140dp"
+            android:textSize="20dp"
+            android:background="@drawable/edit_background2"
+            android:lines="7"
+            android:gravity="top|left"
+            />
+    </TableRow>
+
+
+
+
+
+</TableLayout>
