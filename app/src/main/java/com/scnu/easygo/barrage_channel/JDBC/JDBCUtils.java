@@ -15,7 +15,7 @@ public class JDBCUtils {
 	}
 	public static Connection getConnection() throws SQLException{
 
-			return (Connection) DriverManager.getConnection("jdbc:mysql://47.102.154.192:3306/area_talk?characterEncoding=utf8", "root", "123456");
+			return (Connection) DriverManager.getConnection("jdbc:mysql://****:3306/area_talk?characterEncoding=utf8", "root", "123456");
 		
 	}
 }
