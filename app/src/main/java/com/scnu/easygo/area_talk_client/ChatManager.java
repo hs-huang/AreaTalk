@@ -29,7 +29,7 @@ public class ChatManager {
                 try {
                     //死循环
                     while(UserID.homeFragment==null||UserID.homeFragment.getMyLatitudeAndmyLongitude()==null);
-                    socket=new Socket("47.102.154.192", 12345);//创建客户端，连接的端口是ServerSocket的端口
+                    socket=new Socket("**.**2.**4.***", 12345);//创建客户端，连接的端口是ServerSocket的端口
                     pw=new PrintWriter(
                             new OutputStreamWriter(
                                     socket.getOutputStream(),"UTF-8"));
